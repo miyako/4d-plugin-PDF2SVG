@@ -23,7 +23,7 @@ Progress QUIT (<>P)
 **Arguments**
 
 * $1: The PDF document BLOB
-* $2: ARRAY PICTURE to receive the pages (must be defined)
+* $2: ARRAY PICTURE to receive the pages (must be defined) //see remarks below
 * $3: starting page (1 based). [optional]
 * $4: ending page (1 based). [optional]
 * $5: password [optional]
@@ -63,3 +63,6 @@ $0:=Progress Stopped (<>P)
 #define PDF2SVG_ERROR_AbortedByUser (-3)
 ```
 
+**Alternate syntax**
+
+You may pass ```ARRAY TEXT``` or ```ARRAY BLOB``` in $2. However, $4 in the callback function will not be used. The current page data will only be passed if a picture is used. This is to avoid duplicating the image for the final result array and the callback parameter.
