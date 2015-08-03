@@ -26,12 +26,12 @@ Progress QUIT (<>P)
 
 **Arguments**
 
-* $1: The PDF document BLOB
-* $2: ARRAY PICTURE to receive the pages (must be defined) //see remarks below
+* $1: The PDF document BLOB.
+* $2: Picture array to receive the pages (must be defined). //see remarks below
 * $3: starting page (1 based). [optional]
 * $4: ending page (1 based). [optional]
-* $5: password [optional]
-* $6: callback method [optional]
+* $5: password. [optional]
+* $6: callback method. [optional]
 
 **Callback**
 
