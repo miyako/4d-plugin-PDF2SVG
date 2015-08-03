@@ -65,4 +65,4 @@ $0:=Progress Stopped (<>P)
 
 **Alternate syntax**
 
-You may pass ```ARRAY TEXT``` or ```ARRAY BLOB``` in $2. However, $4 in the callback function will not be used. The current page data will only be passed if a picture is used. This is to avoid duplicating the image for the final result array and the callback parameter.
+You may pass ```ARRAY TEXT``` or ```ARRAY BLOB``` in $2. However, $4 in the callback function will not be used. The current page data will only be passed to the callbak method if a picture is used. This is to avoid duplicating the image for the final result array and the callback parameter.
