@@ -1,0 +1,41 @@
+#directives for building poppler for windows 32 on mingw32
+
+export FREETYPE_LIBS="-L/usr/local/lib -lfreetype" 
+export LIBPNG_LIBS="-L/usr/local/lib -lpng16"
+export LIBJPEG_LIBS="-L/usr/local/lib -ljpeg"
+export FONTCONFIG_LIBS="-L/usr/local/lib -lfontconfig"
+export PKG_CONFIG="/usr/local/bin/pkg-config.exe"
+export LDFLAGS="-L/usr/local/lib"
+export CPPFLAGS="-I/usr/local/include" 
+./configure -enable-poppler-glib
+
+#patch gfile.cc for 32 bits, because GetFile GetFileSizeEx is undefined
+
+#ifndef GetFileSizeEx
+bool GetFileSizeEx(HANDLE hFile, PLARGE_INTEGER fsize){
+    LPDWORD tThingy;
+    DWORD t = fsize->HighPart;
+    *tThingy = t;
+
+    int ret = GetFileSize(hFile, tThingy);
+
+    fsize->HighPart = *tThingy;
+    delete tThingy;
+    return ret;
+}
+#endif
+
+#patch pdftocairo-win32, because GetDefaultPrinter is undefined
+
+void *mmap(void *addr, size_t length, int prot, int flags, int fd, off_t offset) {
+	addr = malloc(length);
+	lseek(fd, offset, SEEK_SET);
+	read(fd, addr, length);
+	return addr;
+}
+int munmap(void *addr, size_t length) {
+	free(addr);
+	return 0;
+}
+
+#patch CairoFontEngine because mmap and munmap are undefined 

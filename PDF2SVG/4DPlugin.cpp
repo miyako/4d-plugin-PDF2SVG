@@ -17,7 +17,7 @@ bool IsProcessOnExit(){
     PA_long32 state, time;
     PA_GetProcessInfo(PA_GetCurrentProcessNumber(), name, &state, &time);
     CUTF16String procName(name.getUTF16StringPtr());
-    CUTF16String exitProcName((PA_Unichar *)"$\0x\0x\0");
+    CUTF16String exitProcName((PA_Unichar *)"$\0x\0x\0\0\0");
     return (!procName.compare(exitProcName));
 }
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67C0B7AC-6F41-404C-8C10-6A057BF64671</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PDF2SVG</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3DB1A409C177CABBE0401E7B9085D16D396E991</key>
+		<string>https://github.com/miyako/4d-plugin-PDF2SVG.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PDF2SVG/PDF2SVG.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3DB1A409C177CABBE0401E7B9085D16D396E991</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miyako/4d-plugin-PDF2SVG.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3DB1A409C177CABBE0401E7B9085D16D396E991</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3DB1A409C177CABBE0401E7B9085D16D396E991</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4d-plugin-PDF2SVG</string>
+		</dict>
+	</array>
+</dict>
+</plist>
