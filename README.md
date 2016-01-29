@@ -1,9 +1,26 @@
 # 4d-plugin-PDF2SVG
 Convert PDF to SVG, using Poppler and Cairo. Inspired by https://github.com/db9052/pdf2svg
 
+##Platform
+
+| carbon | cocoa | win32 | win64 |
+|:------:|:-----:|:---------:|:---------:|
+|🆗|🆗|🆗|🆗|
+
 ![](https://github.com/miyako/4d-plugin-PDF2SVG/blob/master/images/screenshot.png)
 
 ![](https://github.com/miyako/4d-plugin-PDF2SVG/blob/master/images/screenshot-w.png)
+
+Commands
+---
+
+```c
+PDF_Convert
+PDF_Get_page_count
+```
+
+Examples
+---
 
 ```
 $path:=Get 4D folder(Current resources folder)+"sample.pdf"
