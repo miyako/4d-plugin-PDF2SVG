@@ -249,7 +249,8 @@ void PDF_Convert(sLONG_PTR *pResult, PackagePtr pParams)
                     double width, height;
                     poppler_page_get_size (page, &width, &height);
                     cairo_surface_t *surface = cairo_svg_surface_create_for_stream(__cairo_write_func, &ImageData, width, height);
-                    cairo_t *drawcontext = cairo_create(surface);
+										cairo_svg_surface_restrict_to_version(surface, CAIRO_SVG_VERSION_1_1);
+										cairo_t *drawcontext = cairo_create(surface);
                     poppler_page_render_for_printing(page, drawcontext);
                     cairo_show_page(drawcontext);
                     cairo_destroy(drawcontext);
