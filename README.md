@@ -18,9 +18,7 @@ error:=PDF Convert (pdf;svg;from;to;password;method)
 Parameter|Type|Description
 ------------|------|----
 pdf|BLOB|The PDF document BLOB
-svg|ARRAY PICTURE
-ARRAY TEXT
-ARRAY BLOB|Picture array to receive the pages (must be defined); See remarks below
+svg|ARRAY PICTURE ARRAY TEXT ARRAY BLOB ARRAY|Array to receive the pages (must be defined); See remarks below
 from|INT32|Starting page (1 based) [optional]
 to|INT32|Ending page (1 based) [optional]
 password|TEXT|Password [optional]
