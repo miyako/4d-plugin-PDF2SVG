@@ -5,22 +5,37 @@ Convert PDF to SVG, using Poppler and Cairo. Inspired by https://github.com/db90
 
 | carbon | cocoa | win32 | win64 |
 |:------:|:-----:|:---------:|:---------:|
-|🆗|🆗|🆗|🆗|
+|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|
 
 ![](https://github.com/miyako/4d-plugin-PDF2SVG/blob/master/images/screenshot.png)
 
 ![](https://github.com/miyako/4d-plugin-PDF2SVG/blob/master/images/screenshot-w.png)
 
-Commands
----
-
-```c
-PDF_Convert
-PDF_Get_page_count
+```
+error:=PDF Convert (pdf;svg;from;to;password;method)
 ```
 
-Examples
----
+Parameter|Type|Description
+------------|------|----
+pdf|BLOB|The PDF document BLOB
+svg|ARRAY PICTURE|Picture array to receive the pages (must be defined). //see remarks below
+from|INT32|Starting page (1 based) [optional]
+to|INT32|Ending page (1 based) [optional]
+password|TEXT|Password [optional]
+method|TEXT|Callback method [optional]
+error|INT32|Error code
+
+```
+count:=PDF Get page count (pdf;password)
+```
+
+Parameter|Type|Description
+------------|------|----
+pdf|BLOB|The PDF document BLOB
+password|TEXT|Password [optional]
+count|INT32|Page count
+
+###Examples
 
 ```
 $path:=Get 4D folder(Current resources folder)+"sample.pdf"
@@ -41,16 +56,7 @@ $error:=PDF Convert ($PDF;$pages;$startPage;$endPage;$password;$callback)
 Progress QUIT (<>P)
 ```
 
-**Arguments**
-
-* $1: The PDF document BLOB.
-* $2: Picture array to receive the pages (must be defined). //see remarks below
-* $3: starting page (1 based). [optional]
-* $4: ending page (1 based). [optional]
-* $5: password. [optional]
-* $6: callback method. [optional]
-
-**Callback**
+###Callback
 
 The method is executed in the same process as the calling method.
 
@@ -76,7 +82,7 @@ To abort:
 $0:=Progress Stopped (<>P)
 ```
 
-**Error codes**
+###Error codes
 
 ```
 #define PDF2SVG_ERROR_InvalidSourceData (-1)
@@ -84,6 +90,6 @@ $0:=Progress Stopped (<>P)
 #define PDF2SVG_ERROR_AbortedByUser (-3)
 ```
 
-**Alternate syntax**
+###Alternate syntax
 
 Alternatively, you may pass ```ARRAY TEXT``` or ```ARRAY BLOB``` in $2. However, $4 in the callback function will not be used. The current page data will only be passed to the callback method when ```ARRAY PICTURE``` is used. It's main purpose is to  display a preview image. Note that the image is a ref-counted duplicate of the final array element. 
