@@ -7,7 +7,7 @@ Convert PDF to SVG, using Poppler and Cairo. Inspired by https://github.com/db90
 |:------:|:-----:|:---------:|:---------:|
 |<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|
 
-###Version
+### Version
 
 <img src="https://cloud.githubusercontent.com/assets/1725068/18940649/21945000-8645-11e6-86ed-4a0f800e5a73.png" width="32" height="32" /> <img src="https://cloud.githubusercontent.com/assets/1725068/18940648/2192ddba-8645-11e6-864d-6d5692d55717.png" width="32" height="32" />
 
@@ -39,7 +39,7 @@ pdf|BLOB|The PDF document BLOB
 password|TEXT|Password [optional]
 count|INT32|Page count
 
-###Examples
+### Examples
 
 ```
 $path:=Get 4D folder(Current resources folder)+"sample.pdf"
@@ -60,7 +60,7 @@ $error:=PDF Convert ($PDF;$pages;$startPage;$endPage;$password;$callback)
 Progress QUIT (<>P)
 ```
 
-###Callback
+### Callback
 
 The method is executed in the same process as the calling method.
 
@@ -86,7 +86,7 @@ To abort:
 $0:=Progress Stopped (<>P)
 ```
 
-###Error codes
+### Error codes
 
 ```
 #define PDF2SVG_ERROR_InvalidSourceData (-1)
@@ -94,6 +94,6 @@ $0:=Progress Stopped (<>P)
 #define PDF2SVG_ERROR_AbortedByUser (-3)
 ```
 
-###Alternate syntax
+### Alternate syntax
 
 Alternatively, you may pass ```ARRAY TEXT``` or ```ARRAY BLOB``` in $2. However, $4 in the callback function will not be used. The current page data will only be passed to the callback method when ```ARRAY PICTURE``` is used. It's main purpose is to  display a preview image. Note that the image is a ref-counted duplicate of the final array element. 
