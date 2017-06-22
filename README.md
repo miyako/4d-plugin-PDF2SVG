@@ -1,7 +1,33 @@
 # 4d-plugin-PDF2SVG
 Convert PDF to SVG.
 
-##Platform
+Powered by... 
+
+libcairo
+libffi
+libfontconfig
+libfreetype
+libgio
+libglib
+libgmodule
+libgobject
+libharfbuzz
+libiconv
+libintl
+libjpeg
+libpixman
+libpng16
+libpoppler
+libtiff
+libz
+
+Size is large (``105.7 MB``).
+
+**Related Project**: https://github.com/miyako/4d-plugin-svg-converter-light
+
+**Related Project**: https://github.com/miyako/4d-plugin-svg-converter
+
+## Platform
 
 | carbon | cocoa | win32 | win64 |
 |:------:|:-----:|:---------:|:---------:|
