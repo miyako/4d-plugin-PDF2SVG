@@ -12,15 +12,6 @@
 #include "4DPluginAPI.h"
 #include "4DPlugin.h"
 
-bool IsProcessOnExit(){    
-    C_TEXT name;
-    PA_long32 state, time;
-    PA_GetProcessInfo(PA_GetCurrentProcessNumber(), name, &state, &time);
-    CUTF16String procName(name.getUTF16StringPtr());
-    CUTF16String exitProcName((PA_Unichar *)"$\0x\0x\0\0\0");
-    return (!procName.compare(exitProcName));
-}
-
 void OnStartup(){  
 
     //define environment varaibles: [FONTCONFIG_FILE, FONTCONFIG_PATH]
@@ -69,12 +60,6 @@ void OnStartup(){
 #endif    
 }
 
-void OnCloseProcess(){  
-    if(IsProcessOnExit()){
-        //ceanup code here;  
-    }
-}
-
 void PluginMain(PA_long32 selector, PA_PluginParameters params)
 {
 	try
@@ -99,10 +84,7 @@ void CommandDispatcher (PA_long32 pProcNum, sLONG_PTR *pResult, PackagePtr pPara
         case kServerInitPlugin :            
             OnStartup();
             break;    
-
-        case kCloseProcess :            
-            OnCloseProcess();
-            break;      
+     
 // --- Convert
 
 		case 1 :
