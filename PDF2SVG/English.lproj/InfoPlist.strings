@@ -1,1 +1,1 @@
-﻿/* Localized versions of Info.plist keys */CFBundleName = "PDF2SVG";CFBundleShortVersionString = "1.0";CFBundleGetInfoString = "PDF2SVG version 1.0, Copyright 2015 miyako.";
+/* Localized versions of Info.plist keys */CFBundleName = "PDF2SVG";CFBundleShortVersionString = "2.1.0";CFBundleGetInfoString = "PDF2SVG version 2.1.0, Copyright 2021 miyako.";

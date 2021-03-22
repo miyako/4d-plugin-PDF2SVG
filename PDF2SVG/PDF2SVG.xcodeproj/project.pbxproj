@@ -30,7 +30,6 @@
 		D13116BD1A03B3C300DE1322 /* C_TIME.h in Headers */ = {isa = PBXBuildFile; fileRef = D13116B71A03B3C300DE1322 /* C_TIME.h */; };
 		D13116C41A03B48900DE1322 /* C_TEXT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13116C21A03B48900DE1322 /* C_TEXT.cpp */; };
 		D13116C51A03B48900DE1322 /* C_TEXT.h in Headers */ = {isa = PBXBuildFile; fileRef = D13116C31A03B48900DE1322 /* C_TEXT.h */; };
-		D13116C71A03B5B600DE1322 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13116C61A03B5B600DE1322 /* AppKit.framework */; };
 		D13116CA1A03B5CC00DE1322 /* C_POINTER.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13116C81A03B5CC00DE1322 /* C_POINTER.cpp */; };
 		D13116CB1A03B5CC00DE1322 /* C_POINTER.h in Headers */ = {isa = PBXBuildFile; fileRef = D13116C91A03B5CC00DE1322 /* C_POINTER.h */; };
 		D13116CE1A03B62400DE1322 /* C_PICTURE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13116CC1A03B62400DE1322 /* C_PICTURE.cpp */; };
@@ -55,14 +54,13 @@
 		D1452AC31B6EF3BB000FBFC3 /* libpoppler-glib.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1452AC21B6EF3BB000FBFC3 /* libpoppler-glib.8.dylib */; };
 		D1452AC51B6EF42C000FBFC3 /* libcairo.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1452AC41B6EF42C000FBFC3 /* libcairo.2.dylib */; };
 		D1452AC71B6EFC15000FBFC3 /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1452AC61B6EFC15000FBFC3 /* libgobject-2.0.0.dylib */; };
-		D175D9CD1A02E8DD0006B569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D175D9CC1A02E8DD0006B569 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D134D4AB1A030B7A008D14EF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = ..;
+			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
 				D134D4AC1A030BA0008D14EF /* manifest.json in CopyFiles */,
@@ -97,7 +95,6 @@
 		D13116B71A03B3C300DE1322 /* C_TIME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C_TIME.h; path = Classes/C_TIME.h; sourceTree = "<group>"; };
 		D13116C21A03B48900DE1322 /* C_TEXT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = C_TEXT.cpp; path = Classes/C_TEXT.cpp; sourceTree = "<group>"; };
 		D13116C31A03B48900DE1322 /* C_TEXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C_TEXT.h; path = Classes/C_TEXT.h; sourceTree = "<group>"; };
-		D13116C61A03B5B600DE1322 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D13116C81A03B5CC00DE1322 /* C_POINTER.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = C_POINTER.cpp; path = Classes/C_POINTER.cpp; sourceTree = "<group>"; };
 		D13116C91A03B5CC00DE1322 /* C_POINTER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C_POINTER.h; path = Classes/C_POINTER.h; sourceTree = "<group>"; };
 		D13116CC1A03B62400DE1322 /* C_PICTURE.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = C_PICTURE.cpp; path = Classes/C_PICTURE.cpp; sourceTree = "<group>"; };
@@ -123,7 +120,6 @@
 		D1452AC41B6EF42C000FBFC3 /* libcairo.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcairo.2.dylib; path = PDF2SVG.4dbase/Plugins/PDF2SVG.bundle/Contents/MacOS/libcairo.2.dylib; sourceTree = "<group>"; };
 		D1452AC61B6EFC15000FBFC3 /* libgobject-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.0.dylib"; path = "PDF2SVG.4dbase/Plugins/PDF2SVG.bundle/Contents/MacOS/libgobject-2.0.0.dylib"; sourceTree = "<group>"; };
 		D14D10DD1A03A8A5008B3411 /* constants.xlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = constants.xlf; sourceTree = "<group>"; };
-		D175D9CC1A02E8DD0006B569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +130,6 @@
 				D1452AC71B6EFC15000FBFC3 /* libgobject-2.0.0.dylib in Frameworks */,
 				D1452AC51B6EF42C000FBFC3 /* libcairo.2.dylib in Frameworks */,
 				D1452AC31B6EF3BB000FBFC3 /* libpoppler-glib.8.dylib in Frameworks */,
-				D13116C71A03B5B600DE1322 /* AppKit.framework in Frameworks */,
-				D175D9CD1A02E8DD0006B569 /* CoreGraphics.framework in Frameworks */,
 				D130064F12F02D9700702C0E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,8 +155,6 @@
 				D1452AC61B6EFC15000FBFC3 /* libgobject-2.0.0.dylib */,
 				D1452AC41B6EF42C000FBFC3 /* libcairo.2.dylib */,
 				D1452AC21B6EF3BB000FBFC3 /* libpoppler-glib.8.dylib */,
-				D13116C61A03B5B600DE1322 /* AppKit.framework */,
-				D175D9CC1A02E8DD0006B569 /* CoreGraphics.framework */,
 				D130064E12F02D9700702C0E /* Cocoa.framework */,
 			);
 			name = "External Frameworks and Libraries";
@@ -320,6 +312,7 @@
 				8D01CCCB0486CAD60068D4B7 /* Sources */,
 				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
 				8D01CCCF0486CAD60068D4B7 /* Rez */,
+				D155ADF82608E752000A0275 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -380,6 +373,26 @@
 		};
 /* End PBXRezBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D155ADF82608E752000A0275 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if test \"$CONFIGURATION\" == 'Deployment'; then\n\n    USER_NAME=keisuke.miyako@4d.com\n    UUID=`uuidgen | tr -d - | tr -d '\\n' | tr '[:upper:]' '[:lower:]'`\n    DEVELOPER_ID=`security find-identity -p codesigning -v | egrep 'Developer ID Application[^\"]+' -o`\n    PRODUCT_PATH=\"$CODESIGNING_FOLDER_PATH\"\n    \n    #clean\n    xattr -cr \"$PRODUCT_PATH\"\n    codesign --remove-signature \"$PRODUCT_PATH\"\n    \n    #sign\n    codesign --verbose --deep --timestamp --force --sign \"$DEVELOPER_ID\" \"$PRODUCT_PATH\"\n    \n    #archive\n    DMG_PATH=\"$PROJECT_DIR/$PRODUCT_NAME.dmg\"\n    ZIP_PATH=\"$PROJECT_DIR/$PRODUCT_NAME.zip\" #for windows\n    rm -f \"$DMG_PATH\"\n    hdiutil create -format UDBZ -plist -srcfolder \"$PRODUCT_PATH\" \"$DMG_PATH\"\n    rm -f \"$ZIP_PATH\"\n    ditto -c -k --keepParent \"$PRODUCT_PATH\" \"$ZIP_PATH\"\n    \n    # must staple the same dmg that was submitted for notarisation\n    # to staple the bundle inside the dmg too,\n    # one must:\n    # sign the bundle\n    # archive the bundle and notarise the dmg\n    # staple the bundle\n    # archive the bundle and notarise the dmg again\n    # staple the dmg\n    # here, we just staple the dmg. it should be sufficient    \n    \n    #round 2\n    echo \"# staple only the dmg\"\n    echo \"\\r\"\n    echo \"xcrun stapler staple \\\"$DMG_PATH\\\"\"\n    echo \"\\r\"\n    \n    #round 3 (optional)\n    echo \"# staple the bundle and the dmg\"\n    echo \"\\r\"\n    echo \"xcrun stapler staple \\\"$PRODUCT_PATH\\\"\"\n    echo \"rm -f \\\"$DMG_PATH\\\"\"\n    echo \"hdiutil create -format UDBZ -plist -srcfolder  \\\"$PRODUCT_PATH\\\" \\\"$DMG_PATH\\\" \"\n    echo \"xcrun altool --notarize-app --file \\\"$DMG_PATH\\\" --username \\\"$USER_NAME\\\" --password \\\"@keychain:altool\\\" --primary-bundle-id $PRODUCT_BUNDLE_IDENTIFIER.$UUID\"\n    echo \"\\r\"\n    \n    #round 1\n    xcrun altool --notarize-app --file \"$DMG_PATH\" --username \"$USER_NAME\" --password \"@keychain:altool\" --primary-bundle-id $PRODUCT_BUNDLE_IDENTIFIER.$UUID\n    \n    #for round 3    \n    UUID=`uuidgen | tr -d - | tr -d '\\n' | tr '[:upper:]' '[:lower:]'`\nelse\n    echo \"No notarization performed as this is not a release build.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -423,10 +436,11 @@
 		42D60B400A9DDBC8002ABB42 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.1.0;
 				DEBUGGING_SYMBOLS = YES;
 				DEPLOYMENT_LOCATION = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -444,10 +458,12 @@
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/PDF2SVG.bundle/Contents/MacOS";
 				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = PDF2SVG;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				USER_HEADER_SEARCH_PATHS = "include/**";
 				WARNING_CFLAGS = (
@@ -463,10 +479,11 @@
 		42D60B410A9DDBC8002ABB42 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2.1.0;
 				DEPLOYMENT_LOCATION = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -481,10 +498,12 @@
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/PDF2SVG.bundle/Contents/MacOS";
 				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = PDF2SVG;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				USER_HEADER_SEARCH_PATHS = "include/**";
 				WARNING_CFLAGS = (
@@ -500,9 +519,10 @@
 		42D60B420A9DDBC8002ABB42 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2.1.0;
 				DEPLOYMENT_LOCATION = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ENABLE_TRIGRAPHS = NO;
@@ -516,10 +536,12 @@
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/PDF2SVG.4dbase/Plugins/PDF2SVG.bundle/Contents/MacOS";
 				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = PDF2SVG;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				USER_HEADER_SEARCH_PATHS = "include/**";
 				WARNING_CFLAGS = (
@@ -540,9 +562,9 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OBJROOT = "$(SRCROOT)/build";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/$(PRODUCT_NAME).4dbase/Plugins";
 			};
 			name = Development;
@@ -556,9 +578,9 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OBJROOT = "$(SRCROOT)/build";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/$(PRODUCT_NAME).4dbase/Plugins";
 			};
 			name = Deployment;
@@ -571,8 +593,8 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/$(PRODUCT_NAME).4dbase/Plugins";
 			};
 			name = Default;

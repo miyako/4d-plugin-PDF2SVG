@@ -1,1 +1,0 @@
-﻿{"name":"PDF2SVG","id":20000,"commands":[{"theme":"Convert","syntax":"PDF Convert(&O;&Y;&L;&L;&T;&T;&T):L"},{"theme":"Convert","syntax":"PDF Get page count(&O;&T;&T):L"}]}

@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lRuVjBq+dXitS2KHjZPs8SdQ/sQ=
+			xYa+SZ+XTpBx+IX0QVxm8rXabmQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -104,6 +104,10 @@
 		<key>Resources/constants.xlf</key>
 		<data>
 		UbZYnK1QdI2HA5cO0/aNT2a+ucQ=
+		</data>
+		<key>Resources/manifest.json</key>
+		<data>
+		Z22g88xX9nv/pNrPA35P/nMVnew=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -121,7 +125,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			QPxSLUYSAOyCEVjCQe3L0Ib/pAk=
+			Nu7m4dY3awieqoC0AV2wWZuBb0k=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libcairo.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -130,7 +134,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			bTlzOoVNXPAZE1QjzLa7316Jdj4=
+			WCWlAmCkH0M7FTut7Bd5obkaSf8=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libffi.6" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -139,7 +143,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Z9GC8t52T+P0nyvTDOEh8IhnDgA=
+			aYmKrab894AN0QUVR8zRboSByn8=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libfontconfig.1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -148,7 +152,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			eU/hnD8i6I/9IgFCiYZ7KBkCuJI=
+			IyOWvbpOa+ujbqoDno56ZZWjnx0=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libfreetype.6" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -157,7 +161,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			qvbl1ZsWL/4UGDfea4Tyo08gCT0=
+			cDeKywU9Yi6nyYX/ercS4rhK7JE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libgio-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -166,7 +170,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			THcs7djcgEKJRG+kK8RRew4YOs4=
+			OxICTbIMu/vcA9zPrNean84hT64=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libglib-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -175,7 +179,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			alwbP5lLEoON+hzvxOtAmIpKK0M=
+			zed23ZcMI8EXrGXZe2V/i1UpHYg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libgmodule-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -184,7 +188,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			7g5bUm+bwf7jd/HMroXhcl9kVHU=
+			Y7kxsUvdyxGqTSuva8BGCD8MMhk=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libgobject-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -193,7 +197,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Ro9pbAutPRJzK06bKBZr4WUM5+k=
+			l5GXAAY37j4jSIzAiUAi0iwZQg4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libharfbuzz.0" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -202,7 +206,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			XOYUg4Ctn6aHH/GLKjB37mAGLXY=
+			jWIjRabNAzcLOC4hGPS/XIr/mvk=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libiconv.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -211,7 +215,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			EWM5/E3bnIjlUwkKB3TZ/JWI+no=
+			aytJ5jpbBX5mffWwx7dYLFapjts=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libintl.8" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -220,7 +224,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			6g7O8GAUq0JXnYVtUBx6UfDaeuo=
+			IS1C9S5ILPesryW8jIf+XU7oZAQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libjpeg.9" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -229,7 +233,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			rJcbDmjLz17u4/tBCUGhvW+imfg=
+			4CD/4z/I7g3NHNXcmHre3OH1TmU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libpixman-1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -238,7 +242,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			w6urpv7x31C7l6ELn1BNviKr3Ds=
+			9ocLN53X+AU0DQ2Q+qBvLHYdA5U=
 			</data>
 			<key>requirement</key>
 			<string>identifier libpng16 and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -247,7 +251,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			TJk/k2eaPHM3djc03UB5Vq9AmUM=
+			1YXbdIiQz9+8upEp0yOdouYkDgU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libpoppler-glib.8" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -256,7 +260,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			q/Awp7PbJobECL8kJTi5pjrz1pI=
+			B3dn0eCKf0HiYc94X6bM4/LmnzA=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libpoppler.48" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -265,7 +269,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			C3V0t3p+uUMlaGuQpcqAgPX8r14=
+			Ud6yEGbTVVWREReL3GEoAGmYZKM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libtiff.5" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -274,17 +278,13 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			FI/HnDyviupQZLZaTpcyEX0Vly4=
+			Grnct5ZBQdk1Ck7U1wpYBL5cI50=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libz.1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
 		</dict>
 		<key>QuickLook/Thumbnail.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LgsQFORWUNIL+UFexKFa4CiRctg=
-			</data>
 			<key>hash2</key>
 			<data>
 			98jKbUnZvoNXKS37m5JUoBfuRCxC2JzhKP+uHKV6WFc=
@@ -292,10 +292,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_1.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Xdham7YBdO9hHz9pu3JwI3RxzwA=
-			</data>
 			<key>hash2</key>
 			<data>
 			TrpzHgo9oH+Dvp8sFNJ41e99Dbacr0g98j8bPNPYXEA=
@@ -303,10 +299,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_10.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LjhDWK6ZACt2A2dwNz3OGcdRm+E=
-			</data>
 			<key>hash2</key>
 			<data>
 			/U/DyOkvYzpGpYhDNFqoFbaGTy++/3AEHoXEj45nSXw=
@@ -314,10 +306,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_11.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BsQsfCQL7g79/hNSV/3jj2qjaY0=
-			</data>
 			<key>hash2</key>
 			<data>
 			E724wFugux7v75OmnU3bGRO9pJUnaoziooTqnBuV97A=
@@ -325,10 +313,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_12.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7nj/vKfKe01w+5woEL6pRcUYBpA=
-			</data>
 			<key>hash2</key>
 			<data>
 			KVB9AtEP5sBt+fCXX9qh/rd3ZlcHO/Oa3Xoqu0jbeHQ=
@@ -336,10 +320,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_13.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pvda6iJvKs8/nhpF0grnjsL72iE=
-			</data>
 			<key>hash2</key>
 			<data>
 			+CZ+t08NJvU7i6wg32Dx2JYOhLPHNXe+Uu8IBsZH08Y=
@@ -347,10 +327,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_2.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uqCQJfWQl6LHH7yJfK08g098syU=
-			</data>
 			<key>hash2</key>
 			<data>
 			skXN3JxkZamLCu0bZ/kGsrp3B3hk3PKEWTMDXKtEaPM=
@@ -358,10 +334,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_22.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uqCQJfWQl6LHH7yJfK08g098syU=
-			</data>
 			<key>hash2</key>
 			<data>
 			skXN3JxkZamLCu0bZ/kGsrp3B3hk3PKEWTMDXKtEaPM=
@@ -369,10 +341,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_23.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EPoeutAMyJUs5fTlv3VLBJE0Kms=
-			</data>
 			<key>hash2</key>
 			<data>
 			2ld5c+3wNHdVnghc5ljivRo17LU+mtZJWepbdZoTcsU=
@@ -380,10 +348,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_24.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LhS49O/YINS4pVd2ddVJtLsM1mI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q+huqo1QhzGgfhferrSVajYsRwrDT/IZjU22Qc73pTA=
@@ -391,10 +355,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_25.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2yt8aw96M2XVx+eR0GtlFxJQLoI=
-			</data>
 			<key>hash2</key>
 			<data>
 			1OMbaC2wVHUUU30gXx3U7piJsw8aK8KK+F6KOqbTqpA=
@@ -402,10 +362,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_27.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GsutoOCbHzyqxv2YpOxYTYxdHow=
-			</data>
 			<key>hash2</key>
 			<data>
 			UKomJLZx3XUsaJXRQFWbJPG0cU2E1tzLwT/68a16lNg=
@@ -413,10 +369,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_29.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KSUNPiBpUFAlwCWvxW5M50znbQI=
-			</data>
 			<key>hash2</key>
 			<data>
 			vBqYAiuMveNMMmjpJUGwJHiVrvBGg9aGFSwFmmJdM2k=
@@ -424,10 +376,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_3.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EPoeutAMyJUs5fTlv3VLBJE0Kms=
-			</data>
 			<key>hash2</key>
 			<data>
 			2ld5c+3wNHdVnghc5ljivRo17LU+mtZJWepbdZoTcsU=
@@ -435,10 +383,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_32.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7nj/vKfKe01w+5woEL6pRcUYBpA=
-			</data>
 			<key>hash2</key>
 			<data>
 			KVB9AtEP5sBt+fCXX9qh/rd3ZlcHO/Oa3Xoqu0jbeHQ=
@@ -446,10 +390,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_4.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LhS49O/YINS4pVd2ddVJtLsM1mI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q+huqo1QhzGgfhferrSVajYsRwrDT/IZjU22Qc73pTA=
@@ -457,10 +397,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_5.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2yt8aw96M2XVx+eR0GtlFxJQLoI=
-			</data>
 			<key>hash2</key>
 			<data>
 			1OMbaC2wVHUUU30gXx3U7piJsw8aK8KK+F6KOqbTqpA=
@@ -468,10 +404,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_6.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ETvgikqdg49Jmk/16DOVlKPgHeg=
-			</data>
 			<key>hash2</key>
 			<data>
 			RxXse1vQJSnMR3dtYS1xLVx8DJGhNdVftEQmPAAOmJk=
@@ -479,10 +411,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_7.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GsutoOCbHzyqxv2YpOxYTYxdHow=
-			</data>
 			<key>hash2</key>
 			<data>
 			UKomJLZx3XUsaJXRQFWbJPG0cU2E1tzLwT/68a16lNg=
@@ -490,10 +418,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_8.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6zTgta0+sL00+ZtchNPghmJlQxU=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZpL3Z/DV8nCDAu/2LuVq6vZHobBPSmML1XJeM8jvYLw=
@@ -501,10 +425,6 @@
 		</dict>
 		<key>Resources/Documentation/images/Field_9.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KSUNPiBpUFAlwCWvxW5M50znbQI=
-			</data>
 			<key>hash2</key>
 			<data>
 			vBqYAiuMveNMMmjpJUGwJHiVrvBGg9aGFSwFmmJdM2k=
@@ -512,10 +432,6 @@
 		</dict>
 		<key>Resources/Documentation/index.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fC2ygLZvhSmfc4ZfKzoR5KEqu8w=
-			</data>
 			<key>hash2</key>
 			<data>
 			SwCvK0SwrAiW8jiCX7EoHmaoVbGpNsxXMWWDoodpRl4=
@@ -523,10 +439,6 @@
 		</dict>
 		<key>Resources/Documentation/styles/common.css</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q2MkLIqbO3Pku+N1cvLwp03xKCQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			rIVNwBjwCMNfpfCWIZchUp2lc4pKKGBI+/i7Oos1o7Q=
@@ -534,298 +446,29 @@
 		</dict>
 		<key>Resources/English.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lRuVjBq+dXitS2KHjZPs8SdQ/sQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			2+oUt93W7M+mm+Of2/Bjm6ENraLjzHyuxYSUmFTpsq8=
+			2hswrtPRCDAiRK8oChlgraaaRU7HDl0ZhiCUCBLIz4E=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/constants.xlf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UbZYnK1QdI2HA5cO0/aNT2a+ucQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			7t2nF9u/4W05GOd8UQ7QAt/PFge16k3ydWYX/6ElmJk=
 			</data>
 		</dict>
-		<key>Windows/PDF2SVG.4DX</key>
+		<key>Resources/manifest.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VDuG3CqOoM75lWC6UiqhdR20Qo8=
-			</data>
 			<key>hash2</key>
 			<data>
-			3WXx7bENo/TFODfXxr2coXCA61IYCBTgECTaPY1g+lU=
-			</data>
-		</dict>
-		<key>Windows/PDF2SVG.html</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
-			</data>
-			<key>hash2</key>
-			<data>
-			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
-			</data>
-		</dict>
-		<key>Windows/libcairo-2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Dasw7GeMS/OqC11/HxsyKaaVwUg=
-			</data>
-			<key>hash2</key>
-			<data>
-			00NgV3VMF7ShAosYmraEPbFmUSl1MIFFdhxAvNFqYxQ=
-			</data>
-		</dict>
-		<key>Windows/libffi-6.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuqI6ODLyeeyZYWERm2V5Lx7OdE=
-			</data>
-			<key>hash2</key>
-			<data>
-			zP33U3lcWHnRgShx/GZuSrj1w/Z1zHU84CA3EMEUnCM=
-			</data>
-		</dict>
-		<key>Windows/libfontconfig-1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CVSD5TcelZWU21EZ2RpgUVmAvgU=
-			</data>
-			<key>hash2</key>
-			<data>
-			mpBb2D3QdV6Xh+fm9JSnlRGbRFo75ojbCpUvkMYwSFw=
-			</data>
-		</dict>
-		<key>Windows/libfreetype-6.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fq+9wZFri0cpssXvCoh9LtxrxCs=
-			</data>
-			<key>hash2</key>
-			<data>
-			VgVO9hQQdlq6giIk0/tZU467xw9eZGoIT1lUl9E7cTU=
-			</data>
-		</dict>
-		<key>Windows/libgcc_s_dw2-1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iev/nXgG6FUK3eDOERczkJogWl0=
-			</data>
-			<key>hash2</key>
-			<data>
-			Y4Q7aLmIcIDG1qvnSr1DgjEsIILZK19Se6E/2Q6lyVY=
-			</data>
-		</dict>
-		<key>Windows/libgio-2.0-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PPpzFx5TCVw2DLxqaxVYhFO/9W0=
-			</data>
-			<key>hash2</key>
-			<data>
-			eOiDYx1Ib9UgsSMaGc4lqTWD0PIpDRFvhXcOdnAcYtk=
-			</data>
-		</dict>
-		<key>Windows/libglib-2.0-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jUh2XjVp62Ge5Hnex4yJ+1wprIc=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZGtdaJYF2HrbtQB0QrzzZ4YzCUJwgJlISfpxXT4Krx8=
-			</data>
-		</dict>
-		<key>Windows/libgmodule-2.0-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mWMBCDi3pDpZ5Gcbr12yPWjtGRE=
-			</data>
-			<key>hash2</key>
-			<data>
-			bk1HuF/VmqYz1W4dg7IH4LX1+EeGDiAt/cENhxm5odU=
-			</data>
-		</dict>
-		<key>Windows/libgobject-2.0-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jdxu1nGA5Mrz8tUn/7lzwSUS/hY=
-			</data>
-			<key>hash2</key>
-			<data>
-			1QDqQBLyhu+QFmbXwkohvrejaY+/OBOzfsPHC52RHCk=
-			</data>
-		</dict>
-		<key>Windows/libharfbuzz-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			soqCkbWvNB+jCaRej3bCHKAUn2Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			PDoMObTq+bd1MA0gTAYLjeKPyIdYh2c0UX/isHKTKGo=
-			</data>
-		</dict>
-		<key>Windows/libiconv-2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P/ATWbvoch56l7XVaVBBjATsxtQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			6Uv64fEPClT+qc2diKu4ZbjJ+1MsCDrLFocZ38M15wU=
-			</data>
-		</dict>
-		<key>Windows/libintl-8.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DM774frU31QG44D9/xNPPpjiihI=
-			</data>
-			<key>hash2</key>
-			<data>
-			n3TIaNja6pONomPI1ViwBkKoS/UBo4OGrw7JEfzwfvM=
-			</data>
-		</dict>
-		<key>Windows/libjpeg-9.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9m0Lk+p4kDksnpPfd2FxCLNpJmk=
-			</data>
-			<key>hash2</key>
-			<data>
-			HCwqw18cA6neeh8OfLjarctwaNAwxuC8NsDdKSuNwxU=
-			</data>
-		</dict>
-		<key>Windows/libpixman-1-0.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TSquQBo1NpDFu0uBzgEXX1z6EjM=
-			</data>
-			<key>hash2</key>
-			<data>
-			X9lsSPGO7xooxyiD572fRORmwCGjmOqqUgbLKtFRW/M=
-			</data>
-		</dict>
-		<key>Windows/libpng16-16.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fca8AavTsTaKVMl+arSm6hnYklw=
-			</data>
-			<key>hash2</key>
-			<data>
-			UGzEMnsvq4PY0supFDpoTt5MEyG1UA4bJ+WeSs1tiHE=
-			</data>
-		</dict>
-		<key>Windows/libpoppler-48.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W018HdTi5afkg/d+wr8qq5CIuGk=
-			</data>
-			<key>hash2</key>
-			<data>
-			iwg84hIAFi4u3nhU3KA41T7AM2t3CNYsRolDRipJkrc=
-			</data>
-		</dict>
-		<key>Windows/libpoppler-glib-8.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DFuy4Dr4TE4JL6OSK7tWcx5x0kM=
-			</data>
-			<key>hash2</key>
-			<data>
-			+u1KI9YpAszzBzb6iZLk+rwFk5Q67LAPGBHCwbVHAfk=
-			</data>
-		</dict>
-		<key>Windows/libstdc++-6.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GljacIC9B3aMeOoKQ1g/6ESf1YM=
-			</data>
-			<key>hash2</key>
-			<data>
-			/vAVOlPiAWiPcT7VOvftgelxWFHTT84ay5RZo48ikk8=
-			</data>
-		</dict>
-		<key>Windows/libtiff-5.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ofqs5vMWa1fjVLfS2I1mLyYtX+A=
-			</data>
-			<key>hash2</key>
-			<data>
-			E5J9Ax5Z8Jn6vYABHhSBbh30fFyb4PVNQLBdFTMlo+Q=
-			</data>
-		</dict>
-		<key>Windows/libxml2-2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			75wM1bDuIaRoryB9Z3RuLWd2f1o=
-			</data>
-			<key>hash2</key>
-			<data>
-			93oK1hUWfQ6XMMLdB07btmeaPhIT7b6kSu5P5mpvnYg=
-			</data>
-		</dict>
-		<key>Windows/pthreadGC2.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zj04EUVxdtvvsG9aOVUF7viypkE=
-			</data>
-			<key>hash2</key>
-			<data>
-			wnH0LanxSD3hWGmRTSFqjvRMqAwNWQd4m26Yc+OqJF8=
-			</data>
-		</dict>
-		<key>Windows/zlib1.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yx96WOqv/qMHzNW72nGCq/J8+/M=
-			</data>
-			<key>hash2</key>
-			<data>
-			77PItFuTYqUH8xsz0DmSBTYPPJlkQP4eIOFqaiK+MFc=
+			vZ2m++q9IQxHAg7IwNfvo2PXK5ZU7gKcrJKiMoS5MqQ=
 			</data>
 		</dict>
 		<key>Windows64/PDF2SVG.4DX</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3u+52x5Gs5LywqSoLt+wVSimW2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZbgYerRntlYiDna7crGYMv25yL4hO8Oz8UnRmrqFBio=
@@ -833,10 +476,6 @@
 		</dict>
 		<key>Windows64/PDF2SVG.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
-			</data>
 			<key>hash2</key>
 			<data>
 			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
@@ -844,10 +483,6 @@
 		</dict>
 		<key>Windows64/libcairo-2.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qpZD6lSM/hNaOzV2FlpKcUPbk1g=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xx0BC8whNtXCizQLDg3rGpcbvX6FBvSsE8O8ualR16I=
@@ -855,10 +490,6 @@
 		</dict>
 		<key>Windows64/libffi-6.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rhiVvQPwcddUm0hRf0JI2Rfydcw=
-			</data>
 			<key>hash2</key>
 			<data>
 			lNZhDbbFPbRTNfUO3qDuN39ZPzYuEbK/6WDv562lE5I=
@@ -866,10 +497,6 @@
 		</dict>
 		<key>Windows64/libfontconfig-1.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7y6vO88b4ZHAfsHLfR18ZhqH/5s=
-			</data>
 			<key>hash2</key>
 			<data>
 			oSRH7c5U+Dovat6WFNe0SJBdfAUVQg6xaiMqb6OJLds=
@@ -877,10 +504,6 @@
 		</dict>
 		<key>Windows64/libfreetype-6.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kf71UnkoVsVZ/lmQ6dHOap85QKc=
-			</data>
 			<key>hash2</key>
 			<data>
 			NKKS46n+ZW1O80qrYD75UNSc4jBLAP0eHekE8t2qSj0=
@@ -888,10 +511,6 @@
 		</dict>
 		<key>Windows64/libgcc_s_sjlj-1.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QqiV7MvaypQ8t32fTFqfOi99OVE=
-			</data>
 			<key>hash2</key>
 			<data>
 			rXGpRpRsrSgFp2EJizCo7z6+ldR/MOZGG5WUt3Ng9Ao=
@@ -899,10 +518,6 @@
 		</dict>
 		<key>Windows64/libgio-2.0-0.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cTH6G6kpQRDVsjjfgn8Nz0X1PVI=
-			</data>
 			<key>hash2</key>
 			<data>
 			UbNd8kCW00u9hvp8F9ZDX3u5r/ItsfkwStJzy9rjFoE=
@@ -910,10 +525,6 @@
 		</dict>
 		<key>Windows64/libglib-2.0-0.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BZEakue14+fyLf1W3lctRmwO8+g=
-			</data>
 			<key>hash2</key>
 			<data>
 			Sebk5wTx8NJ+CznLpyURFnWALoplLJ6/IWe5HPcWHsA=
@@ -921,10 +532,6 @@
 		</dict>
 		<key>Windows64/libgmodule-2.0-0.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vt8whdiP0A3XRwz2t8E6V8obkDs=
-			</data>
 			<key>hash2</key>
 			<data>
 			HygRdvinOiHUHiALdcgfCe34ihbSHzh9rMzNY4pzn/o=
@@ -932,10 +539,6 @@
 		</dict>
 		<key>Windows64/libgobject-2.0-0.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gwtCC/xDesHJen5gRkadg4o67w8=
-			</data>
 			<key>hash2</key>
 			<data>
 			j6n/XTcO7mfsff3i5L7HzL2DmN0v4NR/bgObKE7JP9U=
@@ -943,10 +546,6 @@
 		</dict>
 		<key>Windows64/libharfbuzz-0.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N/5NrZIOU73SqxlGDJgh8/PaLoo=
-			</data>
 			<key>hash2</key>
 			<data>
 			c+G4Tac2VWyVr5/3h7Ugt5bNbJm8A/McBZZhNOJxZY0=
@@ -954,10 +553,6 @@
 		</dict>
 		<key>Windows64/libiconv-2.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7oRLIqKeD2dtHmZYEDJZ/dhw9O0=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gx4Tbkmn+Skpw8Cn4ob5jz8LKei1UVYoTyZH41gPqkc=
@@ -965,10 +560,6 @@
 		</dict>
 		<key>Windows64/libintl-8.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MIjj82Xnv1UUgkzziICbFDwFTUc=
-			</data>
 			<key>hash2</key>
 			<data>
 			+j5r/JCC5RVprPZG7QKSe2LrILSvLuRKpF74taK2Ifw=
@@ -976,10 +567,6 @@
 		</dict>
 		<key>Windows64/libjpeg-9.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+SNB0KKssXkl4pS/nNhSVUnKYPE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xc62h8xtt6cjj32tts3KCCLKKIZBhRgnGlKNNIZZOEk=
@@ -987,10 +574,6 @@
 		</dict>
 		<key>Windows64/libpixman-1-0.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z4RN6elZWbJ8q3kyx22XOqWpB0Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			jwGiLP3lDuDKzf8cA6eL6UlF91AAdHJ6544pDqFK69Y=
@@ -998,10 +581,6 @@
 		</dict>
 		<key>Windows64/libpng16-16.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Z789ipFskBusY23qfkMcaPy3H/E=
-			</data>
 			<key>hash2</key>
 			<data>
 			+4eRLszg0292AWR8e+o6Pd/fZafaXz4KYYAeDzWf0R8=
@@ -1009,10 +588,6 @@
 		</dict>
 		<key>Windows64/libpoppler-48.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6HBsic3a7X8bWbteAUW1tpKcAbI=
-			</data>
 			<key>hash2</key>
 			<data>
 			GXawmAGAKH7fUeucwnRugK+VsfKo/xDeglOO9Zvk948=
@@ -1020,10 +595,6 @@
 		</dict>
 		<key>Windows64/libpoppler-glib-8.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mhiO9BIC+tgTZCZg1KGl4dAd1d8=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ylxu1LsBMTWEa6KYWf2IHUfSdqcbtthhW9TcPZoBd/Q=
@@ -1031,10 +602,6 @@
 		</dict>
 		<key>Windows64/libstdc++-6.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GxLmzvCGNWUv4+kSaLXFdiKEOcs=
-			</data>
 			<key>hash2</key>
 			<data>
 			Kctbn1GIV6KqFEZBgg29kuQsiNs5V7oyDphX6xG3t+A=
@@ -1042,10 +609,6 @@
 		</dict>
 		<key>Windows64/libtiff-5.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ga4vYpKVR59Tnb3Zte9z9GdY+cI=
-			</data>
 			<key>hash2</key>
 			<data>
 			C52JDS1HN9iRgTERU0EkMeUwcbYibmeZW4xq7x46J/Y=
@@ -1053,10 +616,6 @@
 		</dict>
 		<key>Windows64/libwinpthread-1.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			syDQxY1B28w8Xtpjz4AnpCY4xCg=
-			</data>
 			<key>hash2</key>
 			<data>
 			GxTFgHIVmelQqqzMFXy7xFP36kj5/XyNEiYjJKFTNic=
@@ -1064,10 +623,6 @@
 		</dict>
 		<key>Windows64/libxml2-2.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n+ItDVhKGrbCkP8PTZudbhSioB4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ucSelSa9G6h8zO80bzwoBOLOZKME3RVmFFAaHJeHxCQ=
@@ -1075,23 +630,10 @@
 		</dict>
 		<key>Windows64/zlib1.dll</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SiVXZ7ZrTjpruapBjuBUGXS+tM4=
-			</data>
 			<key>hash2</key>
 			<data>
 			6hugoNV4fHKzH16vs8XZArxygdLfW3gIsAFjAxxkb0M=
 			</data>
-		</dict>
-		<key>manifest.json</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			Iau/9uItme+/RNamL0Gl6LIp8fY=
-			</data>
-			<key>requirement</key>
-			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
 		</dict>
 	</dict>
 	<key>rules</key>
@@ -1111,6 +653,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -1170,6 +717,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
