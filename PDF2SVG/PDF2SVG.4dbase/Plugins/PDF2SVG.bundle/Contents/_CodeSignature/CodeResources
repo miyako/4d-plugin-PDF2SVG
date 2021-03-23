@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xYa+SZ+XTpBx+IX0QVxm8rXabmQ=
+			8E79e3c9kWq7Y2RucYC2IYy7sXc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -112,15 +112,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/PDF2SVG.html</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			kTlC1z2lI/BlrO6BPSjEzS3bk0A=
-			</data>
-			<key>requirement</key>
-			<string>identifier PDF2SVG and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
 		<key>MacOS/libcairo.2.dylib</key>
 		<dict>
 			<key>cdhash</key>
@@ -129,6 +120,15 @@
 			</data>
 			<key>requirement</key>
 			<string>identifier "libcairo.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
+		</dict>
+		<key>MacOS/libcharset.1.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			OZcLjy5JCXKz1TaLuXRLWmo6WfM=
+			</data>
+			<key>requirement</key>
+			<string>identifier "libcharset.1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
 		</dict>
 		<key>MacOS/libffi.6.dylib</key>
 		<dict>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			jWIjRabNAzcLOC4hGPS/XIr/mvk=
+			bUE/0dY2JodkTYDBXgF8E3SmJ7I=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libiconv.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -278,7 +278,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Grnct5ZBQdk1Ck7U1wpYBL5cI50=
+			dro09+2JhBqpkmV50H9WjVa2UgY=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libz.1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -448,7 +448,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2hswrtPRCDAiRK8oChlgraaaRU7HDl0ZhiCUCBLIz4E=
+			P+ezMS59FbBn248NFfxci450dTQAZvWQbO1MV4lx3V4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -472,13 +472,6 @@
 			<key>hash2</key>
 			<data>
 			ZbgYerRntlYiDna7crGYMv25yL4hO8Oz8UnRmrqFBio=
-			</data>
-		</dict>
-		<key>Windows64/PDF2SVG.html</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
 			</data>
 		</dict>
 		<key>Windows64/libcairo-2.dll</key>
