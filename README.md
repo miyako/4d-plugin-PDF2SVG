@@ -96,3 +96,18 @@ $0:=Progress Stopped (<>P)
 ### Alternate syntax
 
 Alternatively, you may pass ```ARRAY TEXT``` or ```ARRAY BLOB``` in $2. However, $4 in the callback function will not be used. The current page data will only be passed to the callback method when ```ARRAY PICTURE``` is used. It's main purpose is to  display a preview image. Note that the image is a ref-counted duplicate of the final array element. 
+
+### Build notes
+
+iconv by cmake may be missing the symbol `libiconv_set_relocation_prefix`
+
+add a stub function
+
+```c
+extern LIBICONV_DLL_EXPORTED void libiconv_set_relocation_prefix (const char *orig_prefix,
+                                                                  const char *curr_prefix){do {} while(0);}
+```
+
+zlib by cmake may be missing the symbol `_inflateValidate`
+
+normal `make` instead
