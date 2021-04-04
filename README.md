@@ -10,8 +10,3 @@
 Convert PDF to SVG.
 
 superceded by [4d-plugin-poppler](https://github.com/miyako/4d-plugin-poppler)
-
-**Related Project**: https://github.com/miyako/4d-plugin-svg-converter-light
-
-**Related Project**: https://github.com/miyako/4d-plugin-svg-converter
-
